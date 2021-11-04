@@ -3,23 +3,20 @@
 
 :root{ /*Pseudo-classe das váriaveis globais, sempre iniciar com --.*/
     --cor0:#404EED;
-    
+    --cor1:#36ACF7;
+    --cor2:#8F36F7;
+
+    --font1: "Press Start 2P", monospace, sans-serif;
+    --font2: "Fira Code", monospace, sans-serif;
 }
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #404EED;
+    background-color: var(--cor0);
     border-bottom: 10px solid #000;
     padding: 10px 20px;
-}
-
-h1{
-    font-family: "Press Start 2P", cursive;
-    color: #FFF;
-    text-shadow: 5px 5px 0px #000;
-    font-size: 47.12px;
 }
 
 nav{
@@ -42,11 +39,11 @@ a.square::before{
     width: 10px;
     height: 10px;
     margin-right: 10px;
-    background-color: #36ACF7;
+    background-color: var(--cor1);
 }
 
 a#button{
-    background-color: #36ACF7;
+    background-color: var(--cor1);
     display: inline-block;
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000;
@@ -56,42 +53,5 @@ a#button{
 
 a#button:hover{
     transform: scale(0.9);
-    background-color: #8F36F7;
-}
-
-div{
-    background-color: #3A4042;
-    width: 627px;
-    height: 184px;
-    box-shadow: 10px 10px 0px #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-h2{
-    color: #36ACF7;
-    font-family: 'Press Start 2P', monospace;
-    font-size: 40px;
-    font-weight: 400;
-    text-shadow: 5px 5px 0px #000;
-}
-
-h3{
-    color: #FFF;
-    font-family: 'Press Start 2P', monospace;
-    font-size: 30px;
-    font-weight: 400;
-    text-shadow: 5px 5px 0px #000;
-    margin-top: 28px;
-}
-
-a.button-hero{
-    color: #FFF;
-    background-color: #36ACF7;
-    font-family: "Fira Code", monospace;
-    padding: 17px 19px;
-    margin-top: 38px;
-    box-shadow: 5px 5px 0px #000;;
+    background-color: var(--cor2);
 }
