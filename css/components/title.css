@@ -4,5 +4,14 @@
         font-size: 40px;
         font-weight: 400;
         text-shadow: 4px 4px 0px #000;
-    }
+}
+  
+.title.-second{
+    color: #FFF;
+    padding-top: 50px;
+    text-shadow: none;
+    text-align: center;
+    
+    width: 100%;
+}
 
