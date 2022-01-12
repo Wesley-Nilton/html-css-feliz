@@ -1,7 +1,10 @@
+/*REGRAS GLOBAIS*/
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Press+Start+2P&display=swap');
 
-:root{ /*Pseudo-classe das váriaveis globais, sempre iniciar com --.*/
+
+/*Pseudo-classe das váriaveis globais, sempre iniciar com --.*/
+:root{
     --cor0:#404EED;
     --cor1:#36ACF7;
     --cor2:#8F36F7;
@@ -9,3 +12,13 @@
     --font1: "Press Start 2P", monospace, sans-serif;
     --font2: "Fira Code", monospace, sans-serif;
 }
+
+/*RESET CSS*/
+body, h1, h2, h3{
+    margin: 0px;
+}
+
+body{
+    font-family: var(--font2);
+}
+
