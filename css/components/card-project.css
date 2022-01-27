@@ -1,0 +1,10 @@
+.card-project{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor1);
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px #FFF;
+}
