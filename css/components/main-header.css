@@ -1,4 +1,4 @@
-.header{
+.main-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,7 +7,7 @@
     padding: 10px 20px;
 }
 
-.header_logo{
+.main-header_logo{
     font-family: var(--font1);
     color: #FFF;
     text-shadow: 4px 4px 0px #000;
