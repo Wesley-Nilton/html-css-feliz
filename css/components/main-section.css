@@ -1,4 +1,4 @@
-.section{
+.main-section{
     background-color: var(--cor1);
     border-bottom: 10px solid var(--cor0);
     padding-top: 50px;
@@ -6,14 +6,14 @@
     margin: 0 auto;
 }
 
-.section .main-title{
+.main-section .main-title{
     margin-bottom: 60px;
 }
 
-.section.-bgBlack{
+.main-section.-bgBlack{
     background-color: #000;
 }
 
-.section.-bdFirst{
+.main-section.-bdFirst{
     border-bottom: 10px solid var(--cor1);
 }
