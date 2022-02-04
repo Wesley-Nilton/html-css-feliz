@@ -7,7 +7,7 @@
     padding: 10px 20px;
 }
 
-.main-header_logo{
+.main-header .logo{
     font-family: var(--font1);
     color: #FFF;
     text-shadow: 4px 4px 0px #000;
