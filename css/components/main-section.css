@@ -17,3 +17,11 @@
 .main-section.-bdFirst{
     border-bottom: 10px solid var(--cor1);
 }
+
+.main-section.-bgPurple{
+    background-color: var(--cor0);
+}
+
+.main-section.-bdSecond{
+    border-bottom: 10px solid #000;
+}
