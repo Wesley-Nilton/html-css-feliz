@@ -1,0 +1,13 @@
+.main-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    box-sizing: border-box;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.main-footer .icon{
+    margin-right: 20px;
+    margin-left: 20px;
+}
