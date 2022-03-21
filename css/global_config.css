@@ -15,8 +15,9 @@
 }
 
 /*RESET CSS*/
-body, h1, h2, h3, figure{
+body, h1, h2, h3, figure, input{
     margin: 0px;
+    padding: 0px;
 }
 
 body{
