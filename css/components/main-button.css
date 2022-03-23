@@ -1,5 +1,6 @@
 .main-button{
     color: #FFF;
+    cursor: pointer;
     background-color: var(--cor1);
     display: inline-block;
     padding: 18px 20px;
@@ -13,4 +14,9 @@
 .main-button:hover{
     transform: scale(0.9);
     background-color: var(--cor2);
+}
+
+.main-button.-second{
+    border: none;
+    font-size: 30px;
 }
