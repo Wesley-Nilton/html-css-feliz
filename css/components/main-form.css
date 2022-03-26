@@ -1,5 +1,6 @@
 .main-form{
     padding: 50px 40px;
+    background-color: var(--cor3);
 }
 
 .main-form .main-input{
