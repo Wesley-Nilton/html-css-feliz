@@ -22,11 +22,14 @@
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/card-project.css">
     <link rel="stylesheet" href="css/components/wrapper-card.css">
-
     <link rel="stylesheet" href="css/components/main-text.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
 </head>
 
 <body>
@@ -93,10 +96,16 @@
         <section class="main-section -bgBlack -bdFirst">
             <h2 class="main-title -second">Projetos</h2>
             <div class="wrapper-card">
-                <a href="#" target="_blank">
-                    <figure class="card-project">
-                        <img class="icon" src="assets/img/logo-collabcode.png" alt="Logo CollabCode">
-                    </figure>
+                    <a href="#">
+                        <figure class="card-project">
+                            <img class="icon" src="assets/img/logo-collabcode.png" alt="Logo CollabCode">
+                        </figure>
+                    </a>
+                    <a href="#">
+                        <figure class="card-project">
+                            <img class="icon" src="assets/img/logo-alura.png" alt="Logo Alura">
+                        </figure>
+                    </a>
                 </a>
             </div>
         </section>
@@ -151,10 +160,26 @@
             Delectus architecto quaerat eos qui unde ea ut. Ipsam ullam voluptatum mollitia quis quidem neque modi iusto repudiandae provident tenetur, eos voluptates eveniet perspiciatis quisquam perferendis ad reprehenderit quo a!</p>
         </section>
 
+        <form action="" class="main-form">
+
+            <legend class="main-title -second">Contatos</legend>
+
+            <label for="name" class="main-label">Nome</label>
+            <input type="text" name="user_name" id="name" required class="main-input">
+
+            <label for="email" class="main-label">E-mail</label>
+            <input type="email" name="user_email" id="email" required class="main-input">
+
+            <label for="msg" class="main-label">Mensagem</label>
+            <textarea name="user_message" id="msg" required class="main-input -textarea"></textarea>
+
+            <input type="submit" value="Enviar" class="main-button -full">
+        </form>
     </main>
 
-    <footer>
-        
+    <footer class="main-footer">
+        <a href="#" target="_blank" class="icon"><img src="assets/img/icon-discord.png" alt="Logo Discord"></a>
+        <a href="#" target="_blank" class="icon"><img src="assets/img/icon-twitter.png" alt="Logo Twitter"></a>
     </footer>
 
     <script src="script/components/main-carousel.js"></script>
